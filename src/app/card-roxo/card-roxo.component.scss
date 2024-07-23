@@ -19,4 +19,13 @@
         font-weight: 600;
         font-size: 40px;
     }
+
+}
+
+:host ::ng-deep #primeira-regra .card-cancel-button {
+    background-color: darkmagenta !important;
+}
+
+:host ::ng-deep #segunda-regra .card-cancel-button {
+    background-color: rgb(53, 139, 0) !important;
 }
