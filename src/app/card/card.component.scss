@@ -21,15 +21,20 @@
     }
 }
 
+// ESSA REGRA É PARA O BOTÃO DE CANCELAR DO CARD COMPONENT UTILIZANDO SHADOW DOM 
+.card-cancel-button {
+    background-color: red !important;
+}
+
 // ESSA REGRA SO VAI AFETAR PARA ESSE COMPONENTE (CARD) E NÃO DE FORMA GLOBAL
 // .emulated{
 //     background-color: red;
 // }
 
 // ESSA REGRA VAI AFETAR DE FROMA GLOBAL
-::ng-deep .card-cancel-button{
-    background-color: red !important;
-}
+// ::ng-deep .card-cancel-button{
+//     background-color: red !important;
+// }
 
 // .card-button-cancel{
 //     background-color: greenyellow !important
