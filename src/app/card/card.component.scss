@@ -21,6 +21,11 @@
     }
 }
 
+// ESSA REGRA SO VAI AFETAR PARA ESSE COMPONENTE (CARD) E NÃO DE FORMA GLOBAL 
+:host ::ng-deep mat-slider .mdc-slider__track--active_fill {
+    border-color: yellowgreen !important;
+}
+
 //O ng-deep esta configurado para modo global, ou seja, ele irá afetar todos os componentes que estiverem dentro do componente pai (card.component.scss)
 // ::ng-deep .card-cancel-button {
 //     background-color: yellow !important;
