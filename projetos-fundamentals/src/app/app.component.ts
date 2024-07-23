@@ -1,13 +1,33 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'projetos-fundamentals';
+  inputText = "Texto Inicial alterado";
+  inputType = "text"
+  isDisabled = false;
+
+  enableInput(){
+    this.isDisabled = false;
+  }
+
+  disableInput(){
+    this.isDisabled = true;
+  } 
+
+  setPasswordTypeInput(){
+    this.inputType = "password";
+  }
+
+  setTextTypeInput(){
+    this.inputType = "text";
+  }
+
+  logInputText(){
+    console.log(this.inputText);
+  }
 }
