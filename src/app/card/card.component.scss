@@ -21,6 +21,21 @@
     }
 }
 
-::ng-deep app-card-button-cancel .card-cancel-button{
-    background-color: yellow !important;
-}
+//O ng-deep esta configurado para modo global, ou seja, ele irá afetar todos os componentes que estiverem dentro do componente pai (card.component.scss)
+// ::ng-deep .card-cancel-button {
+//     background-color: yellow !important;
+// }
+
+// O host é o componente que está sendo referenciado no arquivo de estilo do componente filho (card-button-cancel-2.component.scss)
+// :host ::ng-deep app-card-button-cancel .card-cancel-button {
+//     background-color: yellow !important;
+// }
+
+// O ng-deep é uma forma de acessar o componente filho a partir do componente pai (card.component.scss)
+// ::ng-deep app-card-button-cancel .card-cancel-button{
+//     background-color: yellow !important;
+// }
+
+// ::ng-deep #cancel-button .card-cancel-button{
+//     background-color: yellow !important;
+// }
