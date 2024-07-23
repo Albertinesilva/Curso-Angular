@@ -7,3 +7,7 @@
 // .card-cancel-button {
 //   background-color: rgb(164, 207, 77) !important
 // }
+
+mat-slider.custom-slider .mdc-slider__track--active_fill{
+  border-color: rgb(0, 0, 0) !important;
+}
