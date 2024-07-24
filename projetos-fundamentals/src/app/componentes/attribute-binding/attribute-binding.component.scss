@@ -1,31 +1,28 @@
 .card-button1 {
   font-size: 16px;
-  text-align: center;
-  margin-top: 10px;
-  border-radius: 25px;
-  cursor: pointer;
-  // font-weight: bold;
-  padding: 20px 40px;
-  margin-left: 10px;
-}
-
-.card-button2 {
-  font-size: 16px;
-  text-align: center;
   margin-top: 10px;
   border-radius: 25px;
   cursor: pointer;
   padding: 20px;
-  margin-left: 10px; /* ou qualquer valor desejado */
+  margin-left: 20px;
+}
+
+.card-button2 {
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 20px;
+  margin-left: 20px; 
 }
 
 
 .card-button3 {
   font-size: 16px;
-  text-align: center;
+  // text-align: center;
   margin-top: 10px;
   border-radius: 25px;
   cursor: pointer;
-  // font-weight: bold;
-  padding: 10px
+  padding: 20px;
+  margin-left: 20px;
 }
