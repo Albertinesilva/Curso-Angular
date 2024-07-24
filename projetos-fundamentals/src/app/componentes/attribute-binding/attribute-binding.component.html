@@ -1,7 +1,12 @@
 
+<div class="card-button1">
+  <button class="btn btn-warning ml-10" [attr.title]="buttonTitle">Teste</button>
+</div>
 
-<button [attr.title]="buttonTitle">Teste</button>
+<div class="card-button2">
+  <button class="btn btn-success ml-4" [attr.disabled]="buttonDesabled ? true : null">Disabled</button>
+</div>
 
-<button [attr.disabled]="buttonDesabled ? true : null">Disabled</button>
-
-<button (click)="onButtonClick()">Mudar Props</button>
+<div class="card-button3">
+  <button class="btn btn-primary"  (click)="onButtonClick()">Mudar Props</button>
+</div>
