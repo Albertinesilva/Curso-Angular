@@ -1,22 +1,3 @@
-<input 
-  id="meu-input" 
-  [type]="inputType" 
-  [value]="inputText" 
-  [disabled]="isDisabled"
-  
-  (input)="handleInputEnvet($event)"/>
+<!-- <app-event-binding></app-event-binding> -->
 
-<br>
-
-<button (click)="enableInput()">Habilitar</button>
-<button (click)="disableInput()">Desabilitar</button>
-
-<br>
-
-<button (click)="setPasswordTypeInput()">Senha</button>
-<button (click)="setTextTypeInput()">Texto</button>
-
-<br>
-
-<button (click)="logInputText()">Log</button>
-<button onclick="console.log('clicou')">Clicar</button>
+<app-attribute-binding></app-attribute-binding>
