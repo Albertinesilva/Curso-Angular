@@ -30,4 +30,14 @@ export class AppComponent {
   logInputText(){
     console.log(this.inputText);
   }
+
+  handleInputKeup(event: KeyboardEvent){
+    const currentText = (event.target as HTMLInputElement).value;  
+    console.log(currentText);
+  }
+
+  handleInputEnvet(event: Event){
+    const currentText = (event.target as HTMLInputElement).value; 
+    console.log(currentText);
+  }
 }

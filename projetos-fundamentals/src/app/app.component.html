@@ -1,4 +1,10 @@
-<input id="meu-input" [type]="inputType" [value]="inputText" [disabled]="isDisabled">
+<input 
+  id="meu-input" 
+  [type]="inputType" 
+  [value]="inputText" 
+  [disabled]="isDisabled"
+  
+  (input)="handleInputEnvet($event)"/>
 
 <br>
 
@@ -13,3 +19,4 @@
 <br>
 
 <button (click)="logInputText()">Log</button>
+<button onclick="console.log('clicou')">Clicar</button>
