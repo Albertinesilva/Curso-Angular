@@ -9,6 +9,8 @@ export class StyleBindingComponent {
 
   widthButton1 = '110px';
   widthButton2 = 130;
+  isRedButton = true;
+  isGreenButton = true;
   stylesObj = {
     width: '160px',
     backgroundColor: 'gray',
