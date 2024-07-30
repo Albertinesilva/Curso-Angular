@@ -1,6 +1,7 @@
 <form #meuForm="ngForm">
   <mat-form-field>
       <mat-label>Email:</mat-label>
+      <!-- [errorStateMatcher]="matcher" -->
       <input 
           type="text"
           name="email"
@@ -27,6 +28,6 @@
   <br /><br />
 
   <div>
-      <button type="button" [disabled]="meuForm.invalid">Enviar</button>
+      <button type="submit">Enviar</button>
   </div>
 </form>
