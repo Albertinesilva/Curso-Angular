@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  
+  nome = 'Fulano';
+
+  onchange(text: string){
+    console.log(text);
+  }
+
+  onClick(){
+    console.log(this.nome);
+  }
 }
